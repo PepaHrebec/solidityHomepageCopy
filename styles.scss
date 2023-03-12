@@ -1,0 +1,45 @@
+$grey-bckg: #e5e5e5;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $grey-bckg;
+}
+
+.sol-img {
+  width: 40px;
+}
+
+.hdr-a-wrap {
+  display: flex;
+  gap: 20px;
+}
+
+.hover-hdr {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+  &:hover {
+    border-bottom: solid 1px blue;
+  }
+}
+
+.blue-btn-hdr {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+  border: solid 1px blue;
+  border-radius: 6px;
+  transition: all 400ms;
+  &:hover {
+    background-color: blue;
+    color: white;
+  }
+}
