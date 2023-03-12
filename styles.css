@@ -12,12 +12,13 @@ header {
 }
 
 .sol-img {
-  width: 40px;
+  width: 50px;
 }
 
 .hdr-a-wrap {
   display: flex;
   gap: 20px;
+  align-items: end;
 }
 
 .hover-hdr {
@@ -26,18 +27,27 @@ header {
   color: black;
 }
 .hover-hdr:hover {
-  border-bottom: solid 1px blue;
+  border-bottom: solid 1px #002fa7;
 }
 
 .blue-btn-hdr {
   text-decoration: none;
   padding: 10px 15px;
   color: black;
-  border: solid 1px blue;
+  border: solid 1px #002fa7;
   border-radius: 6px;
-  transition: all 400ms;
+  transition: all 300ms;
 }
 .blue-btn-hdr:hover {
-  background-color: blue;
+  background-color: #002fa7;
   color: white;
+}
+
+.hero-img-wrap {
+  background-color: #efefef;
+  padding: 100px 0;
+}
+
+.hero-img {
+  width: 100vw;
 }/*# sourceMappingURL=styles.css.map */

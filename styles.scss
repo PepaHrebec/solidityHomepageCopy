@@ -1,4 +1,8 @@
-$grey-bckg: #e5e5e5;
+$sol-grey: #e5e5e5;
+$sol-blue: #002fa7;
+$sol-white: #efefef;
+
+$max-width: 3px;
 
 * {
   margin: 0;
@@ -10,16 +14,17 @@ header {
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  background-color: $grey-bckg;
+  background-color: $sol-grey;
 }
 
 .sol-img {
-  width: 40px;
+  width: 50px;
 }
 
 .hdr-a-wrap {
   display: flex;
   gap: 20px;
+  align-items: end;
 }
 
 .hover-hdr {
@@ -27,7 +32,7 @@ header {
   padding: 10px 15px;
   color: black;
   &:hover {
-    border-bottom: solid 1px blue;
+    border-bottom: solid 1px $sol-blue;
   }
 }
 
@@ -35,11 +40,20 @@ header {
   text-decoration: none;
   padding: 10px 15px;
   color: black;
-  border: solid 1px blue;
+  border: solid 1px $sol-blue;
   border-radius: 6px;
-  transition: all 400ms;
+  transition: all 300ms;
   &:hover {
-    background-color: blue;
+    background-color: $sol-blue;
     color: white;
   }
+}
+
+.hero-img-wrap {
+  background-color: $sol-white;
+  padding: 100px 0;
+}
+
+.hero-img {
+  width: 100vw;
 }
