@@ -25,6 +25,8 @@ header {
   text-decoration: none;
   padding: 10px 15px;
   color: black;
+  border-bottom: solid 1px #e5e5e5;
+  transition: border-bottom 300ms;
 }
 .hover-hdr:hover {
   border-bottom: solid 1px #002fa7;
@@ -45,9 +47,23 @@ header {
 
 .hero-img-wrap {
   background-color: #efefef;
-  padding: 100px 0;
+  padding: 100px 40px;
 }
 
 .hero-img {
-  width: 100vw;
+  max-width: 100%;
+}
+
+.update-wrap {
+  background-color: #002fa7;
+  color: #efefef;
+}
+
+.update-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 0;
+  max-width: 90%;
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */

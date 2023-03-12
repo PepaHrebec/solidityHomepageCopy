@@ -31,6 +31,8 @@ header {
   text-decoration: none;
   padding: 10px 15px;
   color: black;
+  border-bottom: solid 1px $sol-grey;
+  transition: border-bottom 300ms;
   &:hover {
     border-bottom: solid 1px $sol-blue;
   }
@@ -51,9 +53,23 @@ header {
 
 .hero-img-wrap {
   background-color: $sol-white;
-  padding: 100px 0;
+  padding: 100px 40px;
 }
 
 .hero-img {
-  width: 100vw;
+  max-width: 100%;
+}
+
+.update-wrap {
+  background-color: $sol-blue;
+  color: $sol-white;
+}
+
+.update-text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 0;
+  max-width: 90%;
+  margin: 0 auto;
 }
