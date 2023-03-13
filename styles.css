@@ -77,8 +77,8 @@ header {
 }
 
 .update-heading {
-  font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
+  font-weight: 500;
 }
 
 .update-text {
@@ -93,6 +93,10 @@ header {
   color: #efefef;
 }
 
+.start-wrapper {
+  padding: 80px 40px;
+}
+
 .start-text-and-pic {
   display: flex;
   flex-direction: row;
@@ -102,7 +106,21 @@ header {
 .start-text-and-button {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  padding-top: 20px;
+}
+
+.start-text {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 80px;
+}
+
+.start-a {
+  color: #002fa7;
+  text-decoration: none;
+}
+.start-a:hover {
+  text-decoration: underline;
 }
 
 .start-a-btn {
