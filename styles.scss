@@ -11,6 +11,10 @@ $max-width: 3px;
   font-family: "Work Sans", sans-serif;
 }
 
+p {
+  line-height: 1.5;
+}
+
 header {
   padding: 20px 30px;
   background-color: #e5e5e5;
@@ -79,7 +83,7 @@ header {
   flex-direction: column;
   gap: 20px;
   padding: 80px 40px;
-  max-width: 1300px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -108,6 +112,8 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .start-text-and-button {
@@ -119,10 +125,10 @@ header {
 .start-text {
   font-size: 2.5rem;
   font-weight: 500;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
-.start-a {
+.blue-a {
   color: #002fa7;
   text-decoration: none;
   &:hover {
@@ -145,4 +151,54 @@ header {
 
 .start-pic {
   width: 220px;
+}
+
+.evolve-wrap-center {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.evolve-wrapper {
+  background-color: $sol-grey;
+  padding: 80px 40px;
+  text-align: end;
+}
+
+.evolve-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.evolve-text {
+  font-size: 1.1rem;
+}
+
+.twitt-wrap {
+  background-color: $sol-grey;
+  padding: 80px 40px;
+}
+
+.twitt-text-wrap {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.twitt-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.twitt-p {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.twitt-ul {
+  padding-left: 40px;
+  font-size: 1.1rem;
+  & > li:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
