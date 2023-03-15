@@ -195,4 +195,42 @@ header {
 }
 .twitt-ul > li:not(:last-child) {
   margin-bottom: 30px;
+}
+
+.youtube-wrapper {
+  padding: 80px 40px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.youtube-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+
+.youtube-p {
+  padding-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.youtube-list {
+  padding-left: 40px;
+}
+.youtube-list > li {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+.iframe-wrap {
+  position: relative;
+  padding-top: 56%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }/*# sourceMappingURL=styles.css.map */
