@@ -16,13 +16,13 @@ p {
 }
 
 header {
-  padding: 20px 30px;
+  padding: 20px 30px 15px 20px;
   background-color: #e5e5e5;
 }
 
 .hdr-wrap {
   display: flex;
-  max-width: 1300px;
+  max-width: 1140px;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@ header {
 
 .hdr-a-wrap {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   align-items: end;
 }
 
@@ -44,6 +44,7 @@ header {
   color: black;
   border-bottom: solid 1px $sol-grey;
   transition: border-bottom 300ms;
+  font-size: small;
   &:hover {
     border-bottom: solid 1px $sol-blue;
   }
@@ -56,6 +57,7 @@ header {
   border: solid 1px $sol-blue;
   border-radius: 6px;
   transition: all 300ms;
+  font-size: small;
   &:hover {
     background-color: $sol-blue;
     color: white;
@@ -68,7 +70,7 @@ header {
 }
 
 .hero-img {
-  max-width: 100%;
+  max-width: 1140px;
   display: block;
   margin: 0 auto;
 }
@@ -82,7 +84,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 80px 40px;
+  padding: 100px 20px;
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -150,7 +152,8 @@ header {
 }
 
 .start-pic {
-  width: 220px;
+  max-width: 220px;
+  height: auto;
 }
 
 .evolve-wrap-center {
@@ -160,7 +163,7 @@ header {
 
 .evolve-wrapper {
   background-color: $sol-grey;
-  padding: 80px 40px;
+  padding: 80px 20px;
   text-align: end;
 }
 
@@ -176,7 +179,7 @@ header {
 
 .twitt-wrap {
   background-color: $sol-grey;
-  padding: 80px 40px;
+  padding: 80px 20px;
 }
 
 .twitt-text-wrap {
@@ -204,7 +207,7 @@ header {
 }
 
 .youtube-wrapper {
-  padding: 80px 40px;
+  padding: 80px 20px;
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -239,4 +242,46 @@ iframe {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.foot-wrap {
+  background-color: $sol-dark;
+  padding: 80px 40px 50px 40px;
+}
+
+.foot-text {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.foot-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.col-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  & > a {
+    color: black;
+    font-size: 0.9rem;
+    max-width: 140px;
+  }
+}
+
+.foot-bottom {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  color: black;
+  & > p > a {
+    color: black;
+  }
 }
