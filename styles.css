@@ -62,8 +62,13 @@ header {
   padding: 100px 40px;
 }
 
-.hero-img {
+.hero-img-contain {
   max-width: 1140px;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -145,9 +150,14 @@ header {
   background-color: #002fa7;
 }
 
+.start-pic-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .start-pic {
-  max-width: 220px;
-  height: auto;
+  max-width: 200px;
 }
 
 .evolve-wrap-center {
@@ -272,10 +282,19 @@ iframe {
 
 .foot-bottom {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 0.7rem;
   color: black;
 }
 .foot-bottom > p > a {
   color: black;
+}
+
+@media screen and (max-width: 800px) {
+  .start-text-and-pic {
+    flex-direction: column;
+  }
+  .start-pic {
+    max-width: 150px;
+  }
 }/*# sourceMappingURL=styles.css.map */
