@@ -28,6 +28,11 @@ header {
   align-items: center;
 }
 
+.hdr-icon {
+  max-width: 25px;
+  display: none;
+}
+
 .sol-img {
   width: 50px;
 }
@@ -36,6 +41,11 @@ header {
   display: flex;
   gap: 10px;
   align-items: end;
+}
+
+.btn-clicked {
+  display: flex;
+  flex-direction: column;
 }
 
 .hover-hdr {
@@ -112,7 +122,7 @@ header {
 }
 
 .start-wrapper {
-  padding: 80px 40px;
+  padding: 100px 20px;
 }
 
 .start-text-and-pic {
@@ -133,6 +143,7 @@ header {
   font-size: 2.5rem;
   font-weight: 500;
   padding-bottom: 40px;
+  line-height: 1.2;
 }
 
 .blue-a {
@@ -297,10 +308,19 @@ iframe {
 }
 
 @media screen and (max-width: 800px) {
+  .hdr-a-wrap {
+    display: none;
+  }
+
+  .hdr-icon {
+    display: inline;
+  }
+
   .start-text-and-pic {
     flex-direction: column;
   }
   .start-pic {
-    max-width: 150px;
+    padding-top: 40px;
+    max-width: 90px;
   }
 }
