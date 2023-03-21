@@ -43,11 +43,6 @@ header {
   align-items: end;
 }
 
-.btn-clicked {
-  display: flex;
-  flex-direction: column;
-}
-
 .hover-hdr {
   text-decoration: none;
   padding: 10px 15px;
@@ -58,6 +53,17 @@ header {
   &:hover {
     border-bottom: solid 1px $sol-blue;
   }
+}
+
+.hdr-a-wrap-hidden {
+  display: none;
+}
+
+.btn-clicked {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
 }
 
 .blue-btn-hdr {
@@ -322,5 +328,11 @@ iframe {
   .start-pic {
     padding-top: 40px;
     max-width: 90px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .btn-clicked {
+    display: none;
   }
 }
